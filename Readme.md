@@ -18,15 +18,13 @@ Install the dependencies
 
 ## Run e2e
 
-Run my-project with npm
+Run the project
 
 ```bash
  npm run test
 ```
 
 ## Generate/Open allure reporter
-
-Run my-project with npm
 
 ```bash
 allure generate allure-results
