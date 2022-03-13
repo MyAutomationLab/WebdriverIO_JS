@@ -31,6 +31,10 @@ allure generate allure-results
 allure open
 ```
 
+## Allure report Screenshot
+
+![AllureReport](https://user-images.githubusercontent.com/64739558/158070871-dfe35121-9514-40be-ab01-b415f3d5cf9a.PNG)
+
 ## Key Features
 
 ```bash
@@ -39,6 +43,4 @@ Mocha framework
 Page Object Design pattern
 Test Data sourced from json file
 ```
-## Allure report Screenshot
 
-![AllureReport](https://user-images.githubusercontent.com/64739558/158070716-c004c8a9-c0b5-41e4-994e-9211553bf9c5.PNG)
