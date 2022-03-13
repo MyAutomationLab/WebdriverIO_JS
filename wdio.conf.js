@@ -11,8 +11,7 @@ exports.config = {
     maxInstances: 10,
     capabilities: [{
         maxInstances: 3,
-        browserName: 'chrome',
-        platformName:'windows'
+        browserName: 'chrome'
     }],
     logLevel: 'info',
     bail: 0,
@@ -21,10 +20,6 @@ exports.config = {
     connectionRetryTimeout: 90000,
     connectionRetryCount: 3,
     services: ['chromedriver'],
-    // path:'/wd/hub',
-    // hostname:'192.168.125.187',
-    // port:5555,
-    protocol:'http',
     framework: 'mocha',
     reporters: [
         'spec',

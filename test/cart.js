@@ -1,8 +1,9 @@
-const configData = require('../data/data')
+const configData = require('../config')
 const loginPage = require('../pages/loginpage')
 const cartPage = require('../pages/cartpage')
+const testData = require('../data/data')
 
-describe("verify Add and remove from cart feature test", function(){
+describe("verify add and remove from cart feature test", function(){
     
     it('user navigate to login page', function(){
         browser.url('/')
@@ -17,7 +18,7 @@ describe("verify Add and remove from cart feature test", function(){
     })
 
     it("user should see 6 items added into the cart", function(){
-        cartPage.getCartIconCount(configData.AddToCartCount);
+        cartPage.getCartIconCount(testData.AddToCartCount);
     })
 
     it("user removes item from the cart by pressing remove button on each of the selected item from catalogue", function(){
@@ -25,7 +26,7 @@ describe("verify Add and remove from cart feature test", function(){
     })
 
     it("user shouldn't see any number icon into the cart", function(){
-        cartPage.getCartIconCount(configData.RemoveFromCartCout);
+        cartPage.getCartIconCount(testData.RemoveFromCartCout);
     })
 
 });

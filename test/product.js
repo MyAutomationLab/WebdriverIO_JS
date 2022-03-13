@@ -3,7 +3,7 @@ const loginPage = require('../pages/loginpage')
 const productPage = require('../pages/productpage')
 const testData = require('../data/data');
 
-describe("verify Title, Description and Value of each items matches with given data", function(){
+describe("verify title, description and value of each items matches with given data", function(){
 
     it('user navigate to login page', function(){
         browser.url('/')
